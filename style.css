@@ -14,10 +14,23 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .container {
   width: 950px;
   height: 600px;
   border: 1px solid black;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.cell {
+  border: 1px solid black;
+  flex: 1;
 }
