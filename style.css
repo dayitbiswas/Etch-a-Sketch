@@ -19,7 +19,7 @@ body {
 
 .container {
   width: 950px;
-  height: 600px;
+  height: 950px;
   border: 1px solid black;
   display: flex;
   flex-flow: column nowrap;
